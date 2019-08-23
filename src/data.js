@@ -2,7 +2,7 @@ export const storeProducts = [
     {
         id: 1,
         title: "Google Pixel - Black",
-        img: "https://via.placeholder.com/150",
+        img: "image/galaxy.png",
         price: 10,
         company: "google",
         info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur cumque officiis inventore saepe molestiae, minus itaque ipsum dicta harum fuga autem. Dolore ipsam aliquam dicta ratione facere, ad quas blanditiis? ",
@@ -13,7 +13,7 @@ export const storeProducts = [
     {
         id: 2,
         title: "Google Pixel - Black",
-        img: "https://via.placeholder.com/150",
+        img: "image/galaxy.png",
         price: 10,
         company: "google",
         info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur cumque officiis inventore saepe molestiae, minus itaque ipsum dicta harum fuga autem. Dolore ipsam aliquam dicta ratione facere, ad quas blanditiis? ",
@@ -24,7 +24,7 @@ export const storeProducts = [
     {
         id: 3,
         title: "Google Pixel - Black",
-        img: "https://via.placeholder.com/150",
+        img: "image/galaxy.png",
         price: 10,
         company: "google",
         info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur cumque officiis inventore saepe molestiae, minus itaque ipsum dicta harum fuga autem. Dolore ipsam aliquam dicta ratione facere, ad quas blanditiis? ",
@@ -35,7 +35,7 @@ export const storeProducts = [
     {
         id: 4,
         title: "Google Pixel - Black",
-        img: "https://via.placeholder.com/150",
+        img: "image/galaxy.png",
         price: 10,
         company: "google",
         info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur cumque officiis inventore saepe molestiae, minus itaque ipsum dicta harum fuga autem. Dolore ipsam aliquam dicta ratione facere, ad quas blanditiis? ",
@@ -46,7 +46,7 @@ export const storeProducts = [
     {
         id: 5,
         title: "Google Pixel - Black",
-        img: "https://via.placeholder.com/150",
+        img: "image/galaxy.png",
         price: 10,
         company: "google",
         info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur cumque officiis inventore saepe molestiae, minus itaque ipsum dicta harum fuga autem. Dolore ipsam aliquam dicta ratione facere, ad quas blanditiis? ",
@@ -57,7 +57,7 @@ export const storeProducts = [
     {
         id: 6,
         title: "Google Pixel - Black",
-        img: "https://via.placeholder.com/150",
+        img: "image/galaxy.png",
         price: 10,
         company: "google",
         info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur cumque officiis inventore saepe molestiae, minus itaque ipsum dicta harum fuga autem. Dolore ipsam aliquam dicta ratione facere, ad quas blanditiis? ",
@@ -68,7 +68,7 @@ export const storeProducts = [
     {
         id: 7,
         title: "Google Pixel - Black",
-        img: "https://via.placeholder.com/150",
+        img: "image/galaxy.png",
         price: 10,
         company: "google",
         info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur cumque officiis inventore saepe molestiae, minus itaque ipsum dicta harum fuga autem. Dolore ipsam aliquam dicta ratione facere, ad quas blanditiis? ",
@@ -79,7 +79,7 @@ export const storeProducts = [
     {
         id: 8,
         title: "Google Pixel - Black",
-        img: "https://via.placeholder.com/150",
+        img: "image/galaxy.png",
         price: 10,
         company: "google",
         info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur cumque officiis inventore saepe molestiae, minus itaque ipsum dicta harum fuga autem. Dolore ipsam aliquam dicta ratione facere, ad quas blanditiis? ",
@@ -93,7 +93,7 @@ export const detailProduct = [
     {
         id: 1,
         title: "Google Pixel - Black",
-        img: "https://via.placeholder.com/150",
+        img: "image/galaxy.png",
         price: 10,
         company: "google",
         info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur cumque officiis inventore saepe molestiae, minus itaque ipsum dicta harum fuga autem. Dolore ipsam aliquam dicta ratione facere, ad quas blanditiis? ",
