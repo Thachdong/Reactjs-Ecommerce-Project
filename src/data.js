@@ -88,3 +88,15 @@ export const storeProducts = [
         total: 0
     }
 ];
+
+export const detailProduct = {
+    id: 8,
+    title: "Google Pixel - Black",
+    img: "image/galaxy.png",
+    price: 10,
+    company: "google",
+    info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur cumque officiis inventore saepe molestiae, minus itaque ipsum dicta harum fuga autem. Dolore ipsam aliquam dicta ratione facere, ad quas blanditiis? ",
+    inCart: false,
+    count: 0,
+    total: 0
+}
