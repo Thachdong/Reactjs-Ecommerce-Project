@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
-
 import { ProductConsumer } from '../context';
 
 class Product extends Component {
@@ -11,28 +10,32 @@ class Product extends Component {
         return (
             <ProductWrapper className="col-9 col-md-6 col-lg-3 my-3 mx-auto ">
                 <div className="card">
-                    <div className="img-container p-5" 
-                    onClick={() => console.log("You clicked me on the image container")}>
-                        <Link to="/details">
-                            <img className="card-img-top" 
-                            src={img} alt="product" />
-                        </Link>
-
-                        <button className="cart-btn"
-                        disabled={inCart ? true : false}
-                        onClick={() => 
-                            {console.log("added to cart");
-                        }}>
-                            {
-                                inCart ? (
-                                    <p className="text-capitalize mb-0" disabled >in inCart</p>
-                                ) : (
-                                    <i className="fas fa-cart-plus" />
-                                )
-
-                            }
-                        </button>
-                    </div>
+                    <ProductConsumer>
+                        {value => (
+                            <div className="img-container p-5" 
+                            onClick={() => value.handleDetail(id)}>
+                                <Link to="/details">
+                                    <img className="card-img-top" 
+                                    src={img} alt="product" />
+                                </Link>
+        
+                                <button className="cart-btn"
+                                disabled={inCart ? true : false}
+                                onClick={() => 
+                                    {console.log("added to cart");
+                                }}>
+                                    {
+                                        inCart ? (
+                                            <p className="text-capitalize mb-0" disabled >in inCart</p>
+                                        ) : (
+                                            <i className="fas fa-cart-plus" />
+                                        )
+        
+                                    }
+                                </button>
+                            </div>
+                        )}
+                    </ProductConsumer>
                     {/* cart footer */}
                     <div className="card-footer d-flex justify-content-between">
                         <p className="align-self-center mb-0">

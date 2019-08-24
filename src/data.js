@@ -3,7 +3,7 @@ export const storeProducts = [
         id: 1,
         title: "Google Pixel - Black",
         img: "image/galaxy.png",
-        price: 10,
+        price: 11,
         company: "google",
         info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur cumque officiis inventore saepe molestiae, minus itaque ipsum dicta harum fuga autem. Dolore ipsam aliquam dicta ratione facere, ad quas blanditiis? ",
         inCart: true,
@@ -14,7 +14,7 @@ export const storeProducts = [
         id: 2,
         title: "Google Pixel - Black",
         img: "image/galaxy.png",
-        price: 10,
+        price: 13,
         company: "google",
         info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur cumque officiis inventore saepe molestiae, minus itaque ipsum dicta harum fuga autem. Dolore ipsam aliquam dicta ratione facere, ad quas blanditiis? ",
         inCart: false,
@@ -25,7 +25,7 @@ export const storeProducts = [
         id: 3,
         title: "Google Pixel - Black",
         img: "image/galaxy.png",
-        price: 10,
+        price: 1011,
         company: "google",
         info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur cumque officiis inventore saepe molestiae, minus itaque ipsum dicta harum fuga autem. Dolore ipsam aliquam dicta ratione facere, ad quas blanditiis? ",
         inCart: false,
@@ -88,16 +88,3 @@ export const storeProducts = [
         total: 0
     }
 ];
-
-export const detailProduct =
-    {
-        id: 1,
-        title: "Google Pixel - Black",
-        img: "image/galaxy.png",
-        price: 10,
-        company: "google",
-        info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur cumque officiis inventore saepe molestiae, minus itaque ipsum dicta harum fuga autem. Dolore ipsam aliquam dicta ratione facere, ad quas blanditiis? ",
-        inCart: false,
-        count: 0,
-        total: 0
-    };
