@@ -6,7 +6,7 @@ export const storeProducts = [
         price: 11,
         company: "google",
         info: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur cumque officiis inventore saepe molestiae, minus itaque ipsum dicta harum fuga autem. Dolore ipsam aliquam dicta ratione facere, ad quas blanditiis? ",
-        inCart: true,
+        inCart: false,
         count: 0,
         total: 0
     },

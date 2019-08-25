@@ -11,7 +11,10 @@ class ProductProvider extends Component {
             detailProduct: {},
             cart: [],
             modalOpen: false,
-            modalProduct: []
+            modalProduct: [],
+            cartSubTotal: 0,
+            cartTax: 0,
+            cartTotal: 0
         }
     }
 
@@ -47,7 +50,7 @@ class ProductProvider extends Component {
         product.inCart = true;
         product.count = 1;
         const price = product.price;
-        product.tatal = price;
+        product.total = price;
         this.setState(() => {
             return {
                 products: tempProducts,
@@ -69,6 +72,22 @@ class ProductProvider extends Component {
         });
     }
 
+    increment = (id) => {
+        console.log("this is incerment method");
+    }
+
+    decrement = (id) => {
+        console.log("this is decerment method");
+    }
+
+    removeItem = (id) => {
+        console.log("this is removeitem method");
+    }
+
+    clearCart = (id) => {
+        console.log("this is clear cart method");
+    }
+
     render() {
         return (
             <ProductContext.Provider value={{
@@ -76,7 +95,11 @@ class ProductProvider extends Component {
                 handleDetail: this.handleDetail,
                 addToCart: this.addToCart,
                 openModal: this.openModal,
-                closeModal: this.closeModal
+                closeModal: this.closeModal,
+                increment: this.increment,
+                decrement: this.decrement,
+                clearCart: this.clearCart,
+                removeItem: this.removeItem
                 }}
             >
                 {this.props.children}
